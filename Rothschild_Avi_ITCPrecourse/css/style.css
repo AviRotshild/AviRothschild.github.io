@@ -1,0 +1,342 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to Ttop, rgb(117, 132, 132), white);
+  font-family: 'Roboto Slab', serif;
+  height: 100vh;
+}
+
+.card {
+  font-family: 'Roboto Slab', serif;
+  align-items: center;
+  background-color: lightgray;
+  border: solid 3px black;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 80px;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding: 50px;
+}
+
+
+.aboutMe {
+  align-items: left;
+  background-color: lightgray;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: unset;
+  justify-content: center;
+  margin: 80px 50px 40px 50px;
+  padding: 10px;
+}
+
+.citiInfo {
+  align-items: left;
+  background-color: lightgray;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: unset;
+  justify-content: left;
+  margin: 20px 50px;
+  padding: 20px;
+}
+
+.citiMap {
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 50px -3000px 50px;
+  padding: 2%;
+  
+  
+ 
+}
+.image-gallery{
+  margin: px;
+  
+  border-radius: 30px;
+}
+iframe{
+ border-radius: 30px;
+}
+div .citiMap{
+  margin: 100px;
+}
+.gallery-img {
+  display: none;
+  max-height: 600px;
+}
+
+.active {
+  display: block;
+}
+
+.btns button {
+  display: inline;
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  border-radius: 30px;
+  margin: 2rem 1rem 4rem 1rem;
+  padding: 1rem 5rem;
+  border-radius: 30px;
+
+}
+
+.btns button:hover {
+  color: black;
+  background-color: white;
+}
+
+.btns button:disabled,
+conForm button:disabled {
+  background-color: #666;
+  cursor: not-allowed;
+}
+
+.conFo {
+  background-color: lightgray;
+  border-radius: 30px;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+}
+
+conForm div {
+  align-items: center;
+  justify-content: center;
+  padding: 5% 10% 10% 10%;
+  margin: 7% 25% 25% 25%;
+  height: 700px;
+  width: 50%;
+  border: 5px solid black;
+}
+
+fieldset,
+#abtype {
+  margin-bottom: 2rem;
+}
+
+fieldset {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+input,
+textarea,
+file,
+conForm button {
+  display: block;
+  border-radius: 30px;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 30px;
+  border: 2px solid black;
+}
+
+.file {
+  background-color: white;
+}
+
+conForm button {
+  background-color: black;
+  color: white;
+}
+
+.nav-item {
+  align-self: flex-end;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: -0.6%;
+  margin-top: -0.3%;
+  padding: 0.7%;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  top: 0%;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+nav b {
+  cursor: not-allowed;
+  text-decoration: none;
+  color: black;
+  background-color: lightgrey;
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+}
+
+nav a:hover {
+  color: black;
+  background-color: gray;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+div ul {
+  border: 1px solid black;
+  border-radius: 30px;
+  margin: -0.4%;
+  padding: 0%;
+}
+
+div li {
+  display: inline-block;
+  padding: 1rem 1rem;
+}
+
+div li:hover {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+h1 {
+  margin: 1rem 0 3 0;
+  padding: 0.5rem 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+h2 {
+  margin: 0 0 3rem 0;
+  align-items: center;
+  text-align: center;
+  font-size: 10;
+}
+
+
+.page-wrapper {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image {
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+.profile-je,.profile-lo,.profile-tb{
+  border-radius: 20%;
+  height: 180px;
+  width: 180px;
+  margin-right: 0%;
+  
+}
+.profile-je-p,.profile-lo-p,.profile-tb-p{
+  margin: 0rem 1rem;
+  height: 180px;
+  width: 380px;
+}
+footer {
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0%;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+@keyframes spin1 {
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotateZ(-1deg);
+  }
+
+  to {
+    transform: rotateZ(1deg);
+  }
+}
+
+.card:hover {
+  animation: spin 0.01s ease-in-out infinite;
+}
+
+.card:focus {
+  animation: spin1 3s ease-in-out infinite;
+}
+
+fot {
+  border: 2px solid white;
+  border-radius: 50px;
+  margin: 3rem;
+  padding: 0.4rem 0.5rem;
+}
+
+fot a,
+fot b {
+  color: white;
+  text-decoration: none;
+  margin: 0.5rem;
+  padding: 0rem;
+}
+
+footer div {
+  margin: 0 0 1rem 0rem;
+}
+div .aboutP{
+
+  
+}
+div .aboutP p{
+  margin:-0.1rem 5rem -0.1rem 1rem;
+}
+
+div .aboutP h4{
+  margin:0.3rem;
+}
+div .aboutP b{
+  margin:-0.1rem 5rem -0.1rem 1rem;
+}
+.profile-ab{
+  margin: 10px;
+  border: 5px solid green;
+  border-radius: 30px;
+}
+div .citiInfo p{
+  border: 1px solid gren;
+}

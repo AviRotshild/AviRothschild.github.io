@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Contact</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../css/style.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet" </head>
+
+<body>
+  <nav>
+    <ul>
+      <li>
+        <a href="../index.html" class="nav-item">Home</a>
+      </li>
+      <li>
+        <a href="../pages/about.html" class="nav-item">About</a>
+      </li>
+      <li>
+        <div class="current">
+          <b href="../pages/contact.html" class="nav-item">Contact</b>
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+
+  <conForm>
+    <div class="conFo">
+      <form action="https://formspree.io/f/xzbleool" method="POST">
+        <h3>Contact Form</h3 <fieldset>
+        <legend>Your contact information</legend>
+        <input class="first" id="first" type="text" name="first" placeholder="First Name*" autocomplete="on" required>
+        <input class="last" id="last" type="text" name="last" placeholder="Last Name" autocomplete="on">
+        <input class="email" id="email" type="email" name="email" placeholder="Email Address*" autocomplete="on"
+          required>
+        <textarea class="message" id="message" rows="5" cols="60" name="message" placeholder="Enter your message*"
+          autocomplete="off" required></textarea>
+        <input class="file" id="file" type="file" name="file" placeholder="Send a File" autocomplete="off">
+        <button disabled class='button-send' id='button-send' type="submit">Send Message</button>
+      </form>
+      </fieldset>
+    </div>
+    <script src="../js/about.js"></script>
+
+  </conForm>
+  <footer>
+    <div id="footertext"></div>
+    <script src="../js/footer.js"></script>
+
+    <fot>
+      <a href="../index.html" class="nav-item-fo">Home</a>
+      <a href="../pages/about.html" class="nav-item-fo">About</a>
+      <b href="../pages/contact.html" class="nav-item-fo">Contact</b>
+    </fot>
+    <!--<div>&#169; Israel Tech Challenge</div>-->
+  </footer>
+</body>
+
+</html>
